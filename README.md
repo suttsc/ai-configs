@@ -37,9 +37,19 @@ A status line script for Claude Code's terminal UI. Displays contextual informat
 
 To use, configure it as a status line script in your Claude Code settings.
 
+### `.claude/skills/senior-developer-explains/SKILL.md`
+
+A senior developer skill focused entirely on explanation — not code generation. Works with both Claude Code and GitHub Copilot (Copilot uses `.claude/skills/` directly). When invoked, it will:
+
+1. Diagnose why the code is broken
+2. Describe what the fix should be
+3. Explain the underlying concept
+
+It will **never write or edit code**. Stack expertise covers Laravel, Livewire, and TailwindCSS.
+
 ### `.github/copilot-instructions.md`
 
-Custom instructions for GitHub Copilot, keeping it consistent with the Claude Code conventions (commit message prefixes, British English).
+Custom instructions for GitHub Copilot, keeping it consistent with the Claude Code conventions (commit message prefixes, British English). Copilot also picks up skills from `.claude/skills/` automatically.
 
 ## Setup
 
