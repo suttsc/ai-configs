@@ -37,6 +37,10 @@ A status line script for Claude Code's terminal UI. Displays contextual informat
 
 To use, configure it as a status line script in your Claude Code settings.
 
+### `.github/copilot-instructions.md`
+
+Custom instructions for GitHub Copilot, keeping it consistent with the Claude Code conventions (commit message prefixes, British English).
+
 ## Setup
 
 Clone the repo and source the bash helper from your `.bashrc`:
