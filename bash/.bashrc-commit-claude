@@ -9,7 +9,7 @@ function commit() {
          spinner="⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏"
          while true; do
            for (( i=0; i<${#spinner}; i++ )); do
-             printf "\r${spinner:$i:1} Generating commit message..." >/dev/tty
+             printf "\r${spinner:$i:1} Generating commit message with Claude..." >/dev/tty
              sleep 0.1
            done
          done
